@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Create the icon of each tab on the webpage -->
+    <link rel="shorcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Not important. Just use it in all your codes-->
+    <meta charset="UTF-8">
+    <!--all the information about the website are treated as meta data  -->
+    <!--Description of the website  -->
+    <meta name="description" content="Codify Academy's ####">
+    <!--Keywords for Document  -->
+    <meta name="keywords" content="Codify Academy, ######">
+    <!--Author of Document  -->
+    <meta name="author" content="Ismael Matos/ Codify Academy 03-2017">
+    <!--The viewport gives the browser instructions on how to control the page's dimensions and scaling-->
+    <!--Use it always  t make your querys work-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title /  gives the title to your website-->
+    <title> </title>
+
+    <!-- Font Awesome - Library with icons that you can use in ur web page -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Author Custom CSS / To call the CSS BOOTSTRAP file-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Author Custom CSS / To call the CSS ANIMATED file-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Author Custom CSS / To call the CSS file-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+
+    <h1>Complete this Survey</h1>
+    <!-- Question1 -->
+    <h1>Which cities have you visited?</h1>
+    <form class="survey" id="form" action="index.html" method="post">
+        <input type="checkbox" class="q1" value="Paris"> Paris
+        <br>
+        <input type="checkbox" class="q1" value="London"> London
+        <br>
+        <input type="checkbox" class="q1" value="New York"> New York
+        <br>
+        <input type="checkbox" class="q1" value="San Francisco"> San Francisco
+        <br>
+    </form>
+    <!-- Question2 -->
+    <h1>What's your favorite color?</h1>
+    <select class="survey" id="select" name="">
+        <option  class="q2" value=""> -- Select an option --</option>
+        <option  class="q2" value="Red">Red</option>
+        <option  class="q2" value="Blue">Blue</option>
+        <option  class="q2" value="Green">Green</option>
+        <option  class="q2" value="Purple">Purple</option>
+
+    </select>
+
+    <!-- Question3 -->
+    <h1>Where's your dream vacation?</h1>
+    <form>
+      <input type="radio" name="radio" value="Hawaii" class="q3">Hawaii
+      <input type="radio" name="radio" value="Riviera Maya" class="q3">Riviera Maya
+      <input type="radio" name="radio" value="Australia" class="q3">Australia
+      <input type="radio" name="radio" value="Rio de Janeir o" class="q3">Rio de Janeiro
+      <input type="radio" name="radio" value="Paris" class="q3">Paris
+      <br>
+
+    </form>
+<button type="button" name="button" id="submit">Submit Answers</button>
+    <h2 id="results"></h2>
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script  src="js/bootstrap.min.js" ></script>
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
